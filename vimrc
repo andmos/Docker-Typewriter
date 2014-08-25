@@ -93,6 +93,9 @@ filetype plugin indent on
 syntax on 
 
 set background=dark
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
+let g:solarized_termcolors=16
 colorscheme solarized
 
 :highlight LineNr ctermfg=grey
