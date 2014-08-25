@@ -22,5 +22,6 @@ WORKDIR /home/typewriter
 run chown -R typewriter: /home/typewriter
 user typewriter
 
+RUN mkdir /home/typewriter/shared && touch /home/typewriter/shared/placeholder
 VOLUME /home/typewriter/shared
 CMD /bin/bash
